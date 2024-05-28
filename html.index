@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мої пропозиції в Макдональдс</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Мої пропозиції в Макдональдс</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="proposals.html">Мої пропозиції</a></li>
+                <li><a href="popular.html">Популярні ідеї</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+                <li><a href="about.html">Про нас</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Ласкаво просимо!</h2>
+            <img src="https://images.deliveryhero.io/image/menus-glovo/products/5e9711fdd2ea5a7adf4492d97b56498d0184e3c54910d6637191e45778880f1b?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjo2MDB9fV0=" width="300">
+            <p>Big Mac</p>
+            <ul>
+            <li>Дві біфштекси з яловичини, цибуля, мариновані</li>
+                <li>огірки, сир «Чедер», свіжий салат</li>
+                <li>заправлені соусом «Біг Мак», у булочці</li>
+                <li> з насінням сезаму. 212 г | 526 ккал</li>
+                </ul>
+                  <img src="https://images.deliveryhero.io/image/menus-glovo/products/cf494cfa2170ac49eef653aaa5713427ffb8184ce11081d126c89786b3e8163a?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjo2MDB9fV0=" width="300">
+                     <p>ДАБЛ РОЯЛ ЧІЗБУРГЕР</p>
+            <ul>
+            <li>Два біфштекси з натуральної яловичини</li>
+                <li>в поєднанні з двома слайсами ніжного сиру</li>
+                <li>«Чедер», двома огірочками та свіжою цибулькою,</li>
+                <li>заправлені гірчицею та кетчупом. 272 г | 760 ккал</li>
+                </ul>
+                  <img src="https://images.deliveryhero.io/image/menus-glovo/products/d3badaa9d0c6d3a232eb945782b9b0cfded9626abfca7e5ece3b1b36429d405b?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjo2MDB9fV0=" width="300">
+                     <p>БІГ ТЕЙСТІ МЕНЮ</p>
+            <ul>
+            <li>кола 500мл</li>
+                <li>велика порція картошки фрі</li>
+                <li>гамбургер(Біг ТЕЙСТІ)</li>
+                </ul>
+                  <img src="https://images.deliveryhero.io/image/menus-glovo/products/d9a3b37628fc2299fafe36346c6e8b0eaf0afb5d7f8c03d656d2becf46771493?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjo2MDB9fV0=" width="300">
+                     <p>ЧІКЕН РОЛ</p>
+            <ul>
+            <li>Загорнуті в тонкий лаваш курячі стріпси, свіжі</li>
+                <li>помідори, хрумкий салат латук із «Медово-гірчичним» соусом. 215 г | 340 ккал</li>
+                </ul>
+                 <img src="https://images.deliveryhero.io/image/menus-glovo/products/cffac86ab6a4709e71b116cfacf554d462aad6acbd2c60ac703b9cc022d60751?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjo2MDB9fV0=" width="300">
+                     <p>КАРТОПЛЯ ФРІ ВЕЛИКА</p>
+            <ul>
+            <li>Добірна картопля, засмажена в натуральній олії</li>
+                <li>та трохи підсолена. 120 г | 434 ккал</li>
+                </ul>
+        </section>
+    </main>
+</body>
+</html>
