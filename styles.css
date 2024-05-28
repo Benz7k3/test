@@ -5,17 +5,16 @@ body {
     text-align: center;
     margin: 0;
     padding: 20px;
+    overflow: auto;
 }
 
 header {
     margin-bottom: 50px;
-    animation: textGlow 1.5s infinite alternate;
 }
 
-h1, h2 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    animation: textGlow 1.5s infinite alternate;
+h1, h2, p, li, a {
+    display: inline-block;
+    animation: textGlow 2s infinite alternate, textBounce 5s infinite, textColorChange 3s infinite alternate;
 }
 
 nav ul {
@@ -154,25 +153,23 @@ img:hover {
     }
 }
 
-.text-right {
-    text-align: right;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.8);
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: black;
-    font-size: 1.2em;
-    animation: textBounce 2s infinite;
-}
-
 @keyframes textBounce {
     0%, 100% {
-        transform: translateY(-50%) scale(1);
+        transform: translateY(0) scale(1);
     }
     50% {
-        transform: translateY(-60%) scale(1.2);
+        transform: translateY(-10px) scale(1.1);
+    }
+}
+
+@keyframes textColorChange {
+    0% {
+        color: white;
+    }
+    50% {
+        color: yellow;
+    }
+    100% {
+        color: red;
     }
 }
